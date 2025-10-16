@@ -32,13 +32,31 @@ public class Scanner01 {
 //        int num2 = scanner.nextInt();
 //        System.out.println("num2: " + num2);
 //
-        int num = scanner.nextInt();
-        //scanner.nextLine();
-        String str = scanner.nextLine();
-        System.out.println("num: " + num + "str: " + str);
+//        int num = scanner.nextInt();
+//        //scanner.nextLine();
+//        String str = scanner.nextLine();
+//        System.out.println("num: " + num + "str: " + str);
         //nextint치고 nextline받을려니까 끝나는 이유는 123누르고 엔터를 누르는 순간 123\n까지 입력을 받게되기 때문에
         //123은 넘에 들어가는데 \n기록이 남으니 nextLine으로 가니까 엔터를 받고 끝내버리기 때문에 결과라 이렇게 나온다.
         //이걸 해결 하는 방법은 중간에 \n를 버려줘야 하니 중간에 scanner.nextLine();를 써서 버려준다
+
+        //나이와 이름을 입력 받아서 출력하는데 27살 이동윤입니다. 나이를 먼저 입력받아야한다.
+        int age;
+        String name;
+        System.out.println("나이를 입력하세요 >>> ");
+        age = scanner.nextInt();
+        //실수 받기 scanner.nextDouble();
+
+        scanner.nextLine();   //개행 버리기
+
+        System.out.println("이름을 입력하세요 >>> ");
+        name = scanner.nextLine();
+
+        System.out.println(age + "살" + name + "입니다.");
+
+
+
+
 
 
 
