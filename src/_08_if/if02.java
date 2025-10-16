@@ -38,11 +38,11 @@ public class if02 {
         //사분면
         //x, y를 입력받으세요.
         //입력했을 때 몇 사분면에 존재하는지 출력하시오.
-//        Scanner scanner = new Scanner(System.in);
+  //      Scanner scanner = new Scanner(System.in);
 //        int x;
 //        int y;
 //        System.out.println("x를 입력하세요: ");
-//        x = scanner.nextInt();
+//          x = scanner.nextInt();
 //
 //        scanner.nextLine();
 //
@@ -60,12 +60,13 @@ public class if02 {
 //        } else (x = 0 & y = 0) {
 //
 //        }
-
+        Scanner scanner = new Scanner (System.in);
         int x;
         int y;
-
-        Scanner scanner = new Scanner (System.in);
-
+        System.out.println("x를 입력하세요: ");
+        x = scanner.nextInt();
+        System.out.println("y를 입력하세요: ");
+        y = scanner.nextInt();
 
         if(x > 0 && y > 0) {
             System.out.println("1사분면");
