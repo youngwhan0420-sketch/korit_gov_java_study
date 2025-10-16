@@ -127,5 +127,6 @@ public class Operator {
             System.out.println(result3);
         //삼항 연산자를 여러개 쓸 바에는 가독성이 떨어지기 때문에 조건문을 쓰는게 낫다.
 
+
     }
 }
