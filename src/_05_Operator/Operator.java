@@ -68,7 +68,7 @@ public class Operator {
 //        boolean flag1 = true;
 //        boolean flag2 = false;
 //        System.out.println(flag1 & flag2); //and는 논리곱이라는 의미인 하나라도 false가 있으면 결과값을 false다.
-//       / System.out.println(flag1 & flag1);// 결과값이 True이다.
+//        System.out.println(flag1 & flag1);// 결과값이 True이다.
 //       // System.out.println(flag1 | flag2); //or는 논리합이라는 이미인 하나라도 true가 있으면 true다.
 //       // System.out.println(flag2 | flag2);
 //       // System.out.println(flag1 | flag1);
