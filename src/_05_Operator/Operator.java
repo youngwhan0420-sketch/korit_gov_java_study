@@ -69,40 +69,40 @@ public class Operator {
 //        boolean flag2 = false;
 //        System.out.println(flag1 & flag2); //and는 논리곱이라는 의미인 하나라도 false가 있으면 결과값을 false다.
 //        System.out.println(flag1 & flag1);// 결과값이 True이다.
-//       // System.out.println(flag1 | flag2); //or는 논리합이라는 이미인 하나라도 true가 있으면 true다.
-//       // System.out.println(flag2 | flag2);
-//       // System.out.println(flag1 | flag1);
-//       // System.out.println(!flag1); // ! not는 부정이라는 의미 => 해당 조건을 반대로
+//        System.out.println(flag1 | flag2); //or는 논리합이라는 이미인 하나라도 true가 있으면 true다.
+//        System.out.println(flag2 | flag2);
+//        System.out.println(flag1 | flag1);
+//        System.out.println(!flag1); // ! not는 부정이라는 의미 => 해당 조건을 반대로
 
-        //***********************논리 연산자 조합********************** (&&, ||)
-        // && => 선 조건이 true일 때만 후조건을 실행하며 선조건이 false이면 후조건을 실행하지 않는다.
-        // || => 선 조건이 true이면 후조건을 실행하지 않으며 선조건이 false일 때만 후조건을 실행한다.
-        // int a = 10;
-        //  int b = 20;
-       // System.out.println(b > a && a > 5);
-       // System.out.println(b < a || b > 10);
+//        ***********************논리 연산자 조합********************** (&&, ||)
+//        && => 선 조건이 true일 때만 후조건을 실행하며 선조건이 false이면 후조건을 실행하지 않는다.
+//        || => 선 조건이 true이면 후조건을 실행하지 않으며 선조건이 false일 때만 후조건을 실행한다.
+//        int a = 10;
+//        int b = 20;
+//        System.out.println(b > a && a > 5);
+//        System.out.println(b < a || b > 10);
 
-        //**********************삼항 연산자***************************
-        // int x = 5;
-        //int y = 3;
-        //이라고 했을 때
-        //삼항 연산자의 생김새는 : (조건) ? 참일 때 결과값 : 거짓일 때 결과 값
-        //x와 y 가있는데 둘중에 더큰 숫자를 출력하고 싶다면 조건을 걸어야 한다.
-       // int max = (x > y) ? x : y; //그럼 둘중에 더 큰숫자가 max로 들어가게 된다.
-       // System.out.println(max);
-       // int min = (x < y) ? x : y; //x가 y보다 작냐고 물어봤을때 거짓이면 y가 더 작다는 소리니까 min에 대입을 하게 된다.
-       // System.out.println(min);
-        //긴 코드를 짧게 줄여줄 수 있다.
+//        **********************삼항 연산자***************************
+//        int x = 5;
+//        int y = 3;
+//        이라고 했을 때
+//        삼항 연산자의 생김새는 : (조건) ? 참일 때 결과값 : 거짓일 때 결과 값
+//        x와 y 가있는데 둘중에 더큰 숫자를 출력하고 싶다면 조건을 걸어야 한다.
+//        int max = (x > y) ? x : y; //그럼 둘중에 더 큰숫자가 max로 들어가게 된다.
+//        System.out.println(max);
+//        int min = (x < y) ? x : y; //x가 y보다 작냐고 물어봤을때 거짓이면 y가 더 작다는 소리니까 min에 대입을 하게 된다.
+//        System.out.println(min);
+//        긴 코드를 짧게 줄여줄 수 있다.
 
-        //y = 5; //y를 5로 바꿔보고
-        // boolean isSame = (x == y) ? true : false; //같으면 true가 isSame에 들어간다.
-        //System.out.println(isSame);
+//        y = 5; //y를 5로 바꿔보고
+//        boolean isSame = (x == y) ? true : false; //같으면 true가 isSame에 들어간다.
+//        System.out.println(isSame);
 
-        //String same = (x != y) ? "다름" : "같음"; //이렇게 표현도 가능하다.
+//        String same = (x != y) ? "다름" : "같음"; //이렇게 표현도 가능하다.
 
 
-        // height라는 int 변수를 선언하고 키가 120이상인 경우 탑승가능하도록 하는 삼항연산자를사용하고
-        //가능하면 탑승가능을 출력하고 불가능하면 "탑승 불가능"을 출력해보자.
+//        height라는 int 변수를 선언하고 키가 120이상인 경우 탑승가능하도록 하는 삼항연산자를사용하고
+//        가능하면 탑승가능을 출력하고 불가능하면 "탑승 불가능"을 출력해보자.
 //        int height = 130;
 //        int y = 120;
 //        String same = (height > y) ? "탑승가능" : "탑승 불가능";
