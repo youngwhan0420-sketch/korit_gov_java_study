@@ -193,7 +193,7 @@ public class For {
                 System.out.println("으악");
                 flag = false;
             }
-            if (i >= 30 && i < 40) {
+            if (i / 10 == 3 ) {
                 System.out.println("박수");
                 flag = false;
             }
@@ -205,6 +205,8 @@ public class For {
                 System.out.println(i);
             }
         }
+
+
     }
 }
 
