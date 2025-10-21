@@ -56,7 +56,7 @@ public class Operator {
 //        System.out.println(num1 != num2); //True가 나온다.
 //        // > 왼쪽이 더 크다는 의미
 //        System.out.println(num1 > num2); //False
-//        // >=왼쪽이 더 크거나 같다.
+//        // >= 왼쪽이 더 크거나 같다.
 //        System.out.println(num1 >= num2); //False
 //        // <= 왼쪽이 더 작다
 //        System.out.println(num1 < num2); //True
