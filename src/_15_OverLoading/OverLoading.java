@@ -46,12 +46,5 @@ public class OverLoading { //메소드 오버로딩
         //double 숫자 두개 중 더 큰 값 리턴
         System.out.println(max(8, 10));
         System.out.println(max(10, 5.6));
-
-
-
-
-
-
-
     }
 }
