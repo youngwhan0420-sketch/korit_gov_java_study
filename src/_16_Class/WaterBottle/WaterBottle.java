@@ -1,7 +1,7 @@
 package _16_Class.WaterBottle;
 
 public class WaterBottle {
-    rivate int currentWater;
+     private int currentWater;
 
     //getter만들기
 

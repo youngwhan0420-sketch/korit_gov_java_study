@@ -1,6 +1,6 @@
-package _16_Class.BankAccount;
+//package _16_Class.BankAccount;
 
-public class BankAccountMain {
+//public class BankAccountMain {
 
     /*
     * BankAccount클래스에서 속성으로 balance선언
@@ -16,21 +16,21 @@ public class BankAccountMain {
     * 메인에서 계좌 개설 후 한번씩 다 테스트 해보기
     * withdraw => 출금액이 0원 이상이면서 잔액이 출금액보다 이하일 경우 출금 가능하도록
     * */
-    public static void main(String[] args) {
-        BankAccount account = new BankAccount(20000);
-
-        account.deposit(-30000);
-        System.out.println(account.getBalance());
-        account.deposit(30000);
-        System.out.println(account.getBalance());
-
-        account.withdraw(-100);
-        System.out.println(account.getBalance());
-        account.withdraw(60000);
-        System.out.println(account.getBalance());
-        account.withdraw(30000);
-        System.out.println(account.getBalance());
-
-    }
-
-}
+//    public static void main(String[] args) {
+//        BankAccount account = new BankAccount(20000);
+//
+//        account.deposit(-30000);
+//        System.out.println(account.getBalance());
+//        account.deposit(30000);
+//        System.out.println(account.getBalance());
+//
+//        account.withdraw(-100);
+//        System.out.println(account.getBalance());
+//        account.withdraw(60000);
+//        System.out.println(account.getBalance());
+//        account.withdraw(30000);
+//        System.out.println(account.getBalance());
+//
+//    }
+//
+//}
