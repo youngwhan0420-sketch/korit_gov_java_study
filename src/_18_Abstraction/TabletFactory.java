@@ -11,10 +11,26 @@ package _18_Abstraction;
 * manage()호출
 * upgrade("아이패드 미니7세대") 호출
 * */
-public class TabletFactory extends Factory {
+//public class TabletFactory extends Factory { //빨간줄 뜨는 이유가 팩토리에서 마든 추상클래스는
 
-    public void upgrade(String model) {
 
-    }
+    /*
+    * 매서드 재정의로 두개 불러오기
+    * 출력
+    *
+    *
+    * 매서드 재정의
+    * 출력
+    *
+    *
+    *
+    * 고유 메서드로 업그레이드 정의 출력만 하니까 반환 타입 필요없음.
+    * 출력
+    * 이제 메인 실행부가서 호출하기*/
 
-}
+
+
+   // public void upgrade(String model) {
+
+
+

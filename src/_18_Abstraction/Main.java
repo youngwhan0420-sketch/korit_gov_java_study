@@ -11,8 +11,8 @@ public class Main { //5.메인에서 객채 생성 해준다.
         phoneFactory1.displayInfo();
         phoneFactory1.manage();
 
-        TabletFactory tabletFactory1 = new TabletFactory();
-        tabletFactory1.upgrade("");
+//        TabletFactory tabletFactory1 = new TabletFactory();
+//        tabletFactory1.upgrade("");
 
 
         //7. 팩토리 추상클래스라 객체 못만들지만 만드는 방법
@@ -44,6 +44,8 @@ public class Main { //5.메인에서 객채 생성 해준다.
     PhoneFactory phoneFactory2 = new PhoneFactory();
     phoneFactory2.setFactoryName("삼성 공장");
     phoneFactory2.produce("갤럭시 s25");
+
+    /*출력하기*/
 
     }
 

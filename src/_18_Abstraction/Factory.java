@@ -16,7 +16,7 @@ public abstract class Factory { //class앞에 abstract를 붙혀주면 추상 �
     //1. 일단 필드를 먼저 선언하자
     private String factoryName;
 
-    //3. 추상 메소드 정의
+    //3. 추상 메소드 정의 자식 클래스에서 구현한다는건 오버라이드해서 구현한다. 그래서 재정의가 아니고 정의다.
     public abstract void produce(String model);
     public abstract void manage();
     /*
