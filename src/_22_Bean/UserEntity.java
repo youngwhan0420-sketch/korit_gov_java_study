@@ -18,6 +18,7 @@ public class UserEntity {
     private LocalDateTime updateDt; // 쿼리문을 통해 수정한 시각이 찍힌다.
     private int statusCode;
 
+
     //외부 접근은 게터 세터로만 접근이 가능한데 Bean이다.
 
     //게터 세터들을 다 만들어 주자
@@ -52,7 +53,13 @@ public class UserEntity {
         this.email = email;
     }
 
-    //
-
-    //
+    //db설계할
 }
+
+/*entity라고 하는거는 데이터베이스의 테이블과 1:1 매핑이되는 클래스다.
+* 자바 객체와 DB테이블 간 데이터를 매핑하기 위해서 사용
+*
+* entity는 왜 Bean?
+* Bean은 일종의 가이드라인, 명세, 규칙
+*
+* 여기서 엔티티가 빈이 되려면 기본생성자를 사용  */
