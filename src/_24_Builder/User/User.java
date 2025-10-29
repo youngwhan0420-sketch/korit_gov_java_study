@@ -1,5 +1,5 @@
 //package _24_Builder.User;
-//
+//@Builder
 //public class User {
 //    private int userId;
 //    private String username;
@@ -17,6 +17,7 @@
 //    }
 //
 //    // @Override
+
 //    // public String toString() {
 //    //    return "User(userId =" + userId + ", username=" + username + ",password=" + password
 //    // }

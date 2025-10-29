@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af3ca0d7-0b73-4ac6-830c-e104ffdd5510" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/korit_java_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/korit_java_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_22_Bean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_22_Bean/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_22_Bean/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_22_Bean/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_24_Builder/User/UserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_24_Builder/User/UserMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
