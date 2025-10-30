@@ -1,4 +1,4 @@
-package _25_LayerdArchitecture.entity;
+package _25_LayeredArchitecture.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

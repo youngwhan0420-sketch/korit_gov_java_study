@@ -1,6 +1,6 @@
-package _25_LayerdArchitecture.dto;
+package _25_LayeredArchitecture.dto;
 
-import _25_LayerdArchitecture.entity.User;
+import _25_LayeredArchitecture.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,8 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class TodoRegisterDto {
-
+public class TodoRegisterReqDto {
     private String contents;
     private User user;
 }
