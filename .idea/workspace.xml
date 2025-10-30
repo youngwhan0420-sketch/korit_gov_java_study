@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="af3ca0d7-0b73-4ac6-830c-e104ffdd5510" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/TodoListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/TodoListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/View/TodoListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/View/TodoListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/dto/SigninDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/dto/SigninReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/dto/TodoRegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/dto/TodoRegisterReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/dto/signupDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/entity/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/repository/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/repository/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayerdArchitecture/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayerdArchitecture/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/View/TodoListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/View/TodoListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

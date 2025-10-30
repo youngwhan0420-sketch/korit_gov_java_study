@@ -40,6 +40,7 @@ public class TodoListView {
                 }
             } else if ("2".equals(cmd) && principal == null) {
                 //회원가입
+                //여기다 호출한다.
             } else if ("2".equals(cmd) && principal != null) {
                 //로그아웃
             } else if ("3".equals(cmd) && principal == null) {
@@ -72,8 +73,29 @@ public class TodoListView {
         String name = scanner.nextLine();
 
         SignupReqDto signupReqDto = new SignupReqDto(username, password, name);
+
+        userService.signup(signupReqDto);
+        System.out.println("=======회원가입 완료=======");
         //userService의 회원가입 로직에 signupReqDto 전달
+       /*
+       * System.out.println("");
+        System.out.println("");
+        String username = scanner.nextLine();
+        * sout("");
+        * String password = scanner.nextLine();
+        * signinReqDto signinReqDto = new SigninReqDto(username, password);
+        * User foundUser = userService.signin(signinReqDto);
+        * if (foundUser == null) {
+        * sout("");
+        * return;
+        * }
+        * principal
+        * String password*/
     }
+    //조회할 수 있는 로직을 추가 하기위해 유저서비스로 가서 전체 출력
+
+
+     //userService.print
 }
 
 //package _25_LayerdArchitecture.View;
