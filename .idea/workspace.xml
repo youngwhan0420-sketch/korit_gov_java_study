@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="af3ca0d7-0b73-4ac6-830c-e104ffdd5510" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/TodoListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/TodoListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/View/TodoListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/View/TodoListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/dto/TodoRegisterReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/dto/TodoRegisterReqDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/entity/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/UserList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/korit_java_study-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/korit_java_study-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -121,5 +125,16 @@
       <updated>1761025784154</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

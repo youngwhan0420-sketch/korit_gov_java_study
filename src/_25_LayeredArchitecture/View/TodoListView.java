@@ -1,7 +1,9 @@
-package _25_LayeredArchitecture.view;
+package _25_LayeredArchitecture.View;
 
+import _25_LayeredArchitecture.dto.SigninReqDto;
 import _25_LayeredArchitecture.dto.SignupReqDto;
 import _25_LayeredArchitecture.entity.User;
+import _25_LayeredArchitecture.service.TodoService;
 import _25_LayeredArchitecture.service.UserService;
 
 import java.util.Scanner;
@@ -10,10 +12,12 @@ public class TodoListView {
     private Scanner scanner;
     private User principal;
     private UserService userService;
+    private TodoService todoService;
 
     public TodoListView(UserService userService) {
         scanner = new Scanner(System.in);
         this.userService = userService;
+        //this.todoService = todo
     }
 
     public void homeView() {
@@ -40,11 +44,14 @@ public class TodoListView {
                 }
             } else if ("2".equals(cmd) && principal == null) {
                 //회원가입
-                //여기다 호출한다.
+                signupView();
             } else if ("2".equals(cmd) && principal != null) {
                 //로그아웃
+                principal = null;
+                System.out.println("====== 로그아웃 완료 ======");
             } else if ("3".equals(cmd) && principal == null) {
                 //로그인
+                signinView();
             } else {
                 System.out.println("메뉴를 다시 선택해주세요.");
             }
@@ -73,9 +80,53 @@ public class TodoListView {
         String name = scanner.nextLine();
 
         SignupReqDto signupReqDto = new SignupReqDto(username, password, name);
-
+        //userService의 회원가입 로직에 signupReqDto 전달
         userService.signup(signupReqDto);
-        System.out.println("=======회원가입 완료=======");
+        System.out.println("====== 회원가입 완료 ======");
+        //조회할 수 있는 로직
+        userService.printAllUserList();
+    }
+
+    public void signinView() {
+        System.out.println("[ 로그인 ]");
+        System.out.print("username >> ");
+        String username = scanner.nextLine();
+        System.out.print("password >> ");
+        String password = scanner.nextLine();
+        SigninReqDto signinReqDto = new SigninReqDto(username, password);
+        User foundUser = userService.signin(signinReqDto);
+        if (foundUser == null) {
+            System.out.println("사용자 정보를 다시 확인해주세요.");
+            return;
+        }
+        principal = foundUser;
+        System.out.println("====== 로그인 성공 ======");
+    }
+
+    public void todoListMenuView() {
+        while (true) {
+            System.out.println("[ TodoList Menu ]");
+            System.out.println("1. Todo 등록");
+            System.out.println("2. Todo 조회");
+            System.out.println("b. 뒤로가기");
+            System.out.print(">>> ");
+            String cmd = scanner.nextLine();
+
+            if ("b".equals(cmd)) {
+                break;
+            } else if ("1".equals(cmd)) {
+                System.out.println("[ Todo 등록 ]");
+                //
+                 //컨텐츠에 내용 담기로 했으니
+                //입력 받고나면 TodoRegister 받을 수 있다.
+                //투두 등록을 해준다. 투두 등록을 위한 투두 서비스와 리스트를 만든다.
+            } else if ("2".equals(cmd)) {
+                System.out.println("[ Todo 조회 ]");
+
+            }
+        }
+    }
+}
         //userService의 회원가입 로직에 signupReqDto 전달
        /*
        * System.out.println("");
@@ -91,12 +142,25 @@ public class TodoListView {
         * }
         * principal
         * String password*/
-    }
+
     //조회할 수 있는 로직을 추가 하기위해 유저서비스로 가서 전체 출력
 
 
-     //userService.print
-}
+    //userService.print
+//    public void todoListMenuview() {
+//        String cmd = scanner.nextLine();
+//
+//        if ("b".equals(cmd)) {
+//            break;
+//        } else if ("1".equals(cmd)) {
+//            System.out.println("[ Todo  등록]");
+//            //LocalDateTime.now()
+//        } else if ("2".equals(cmd)) {
+//            System.out.println("[ Todo 조회}");
+//        }
+//    }
+
+
 
 //package _25_LayerdArchitecture.View;
 //
