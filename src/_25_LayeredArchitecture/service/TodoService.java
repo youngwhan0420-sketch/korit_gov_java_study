@@ -2,6 +2,7 @@ package _25_LayeredArchitecture.service;
 
 import _25_LayeredArchitecture.dto.TodoRegisterReqDto;
 import _25_LayeredArchitecture.entity.Todo;
+import _25_LayeredArchitecture.entity.User;
 import _25_LayeredArchitecture.repository.TodoList;
 
 public class TodoService {
@@ -19,7 +20,12 @@ public class TodoService {
         //2. todoId를 만들어야 한다.
         todo.setTodoId(todoList.generatedTodoId());
         //3. todoList에 추가
-        todoList.add(todo); //이제 레지스터를
+        todoList.add(todo); //이제 레지스터
+    }
+
+    public void printAllTodoByUser(User user) {
+
+        //for문 돌려서 출력해준다.
 
     }
 }
