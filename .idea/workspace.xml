@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af3ca0d7-0b73-4ac6-830c-e104ffdd5510" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/repository/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_LayeredArchitecture/service/TodoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_24_Builder/User/User$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_24_Builder/User/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_24_Builder/User/UserMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -58,12 +54,17 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "애플리케이션.BankAccountMain.executor": "Run",
+    "애플리케이션.BookJson.executor": "Run",
+    "애플리케이션.Exception01.executor": "Run",
     "애플리케이션.Intro.executor": "Run",
+    "애플리케이션.Json01.executor": "Run",
     "애플리케이션.LanguageSet.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.MessageMain.executor": "Run",
+    "애플리케이션.OrderJson.executor": "Run",
     "애플리케이션.OverLoading.executor": "Run",
     "애플리케이션.StaticMemberMain.executor": "Run",
+    "애플리케이션.StringBuilder02.executor": "Run",
     "애플리케이션.StudentMain.executor": "Run",
     "애플리케이션.UserMain.executor": "Run",
     "애플리케이션.sssss.executor": "Run"
