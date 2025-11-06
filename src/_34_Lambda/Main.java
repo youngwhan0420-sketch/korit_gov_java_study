@@ -1,6 +1,10 @@
 package _34_Lambda;
 
+import com.google.gson.internal.bind.util.ISO8601Utils;
+
 import java.util.Comparator;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 /*
 * 람다식(Lambda Expression)
@@ -36,6 +40,10 @@ public class Main {
         Comparator<Integer> lambdaComparator = (o1, o2) -> o1.compareTo(o2);
         System.out.println(lambdaComparator.compare(10, 5));//이렇게 바꿔줄 수 있다.
 
+        Supplier<String> stringSupplier = () -> "Supplier 인터페이스 문자열 반환";
+        Consumer<String> stringConsumer = (String message) -> System.out.println("메시지: " + message);
+        stringConsumer.accept(stringSupplier.get()); //얘는 겟하면  설정해둔 문자열이 나오는데 accept해서 출력이 된다.
+
     }
 }
 
@@ -49,5 +57,17 @@ public class Main {
 * Runnable - void run();
 * 매개변수도 없고 반환갑소 없는 단순 실행을 위한 인터페이스이다.
 *
-* Supplier - T 를 반환하는 get();메소드를 갖고있다.
-* 매개변수 없이 값을 반환하는 인터페이스, 단순히 값을 '공급'하는 역할*/
+* Supplier<T> - T 를 반환하는 get();메소드를 갖고있다.
+* 매개변수 없이 값을 반환하는 인터페이스, 단순히 값을 '공급'하는 역할
+*
+* Consumer<T> - 반환값은 없고 대신에 void accept(T t)
+* 값을 매개변수로 받아서 사용하고, 아무것도 반환하지 않는 인터페이스, 데이터를 '소비'하는 역할이다.
+*
+* Function<T, R> - R apply(T t);
+* 하나의 매개변수를 받아서, 연산을 수행한 후 결과를 리턴함
+*
+* Predicate - boolean test(T t);
+* 하나의 매개변수를 받아서 특정 조건을 검사한 후 true / false를 반환하도록 하는 매소드다. */
+
+
+
