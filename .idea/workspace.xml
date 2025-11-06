@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af3ca0d7-0b73-4ac6-830c-e104ffdd5510" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_34_Lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_34_Lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_34_Lambda/calculator/CalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_34_Lambda/calculator/CalculatorMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,41 +38,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.korit_java_study.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/kyh/java_study/korit_gov_java_study&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;애플리케이션.AgeValidateException.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BankAccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BookJson.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Exception01.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Exception02.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Intro.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Json01.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LanguageSet.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MessageMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NumberParseException.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OrderJson.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OverLoading.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StaticMemberMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StringBuilder02.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StudentMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.UserMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.sssss.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.korit_java_study.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/kyh/java_study/korit_gov_java_study",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "애플리케이션.AgeValidateException.executor": "Run",
+    "애플리케이션.BankAccountMain.executor": "Run",
+    "애플리케이션.BookJson.executor": "Run",
+    "애플리케이션.Exception01.executor": "Run",
+    "애플리케이션.Exception02.executor": "Run",
+    "애플리케이션.Intro.executor": "Run",
+    "애플리케이션.Json01.executor": "Run",
+    "애플리케이션.LanguageSet.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MessageMain.executor": "Run",
+    "애플리케이션.NumberParseException.executor": "Run",
+    "애플리케이션.OrderJson.executor": "Run",
+    "애플리케이션.OverLoading.executor": "Run",
+    "애플리케이션.StaticMemberMain.executor": "Run",
+    "애플리케이션.StreamApiEx.executor": "Run",
+    "애플리케이션.StringBuilder02.executor": "Run",
+    "애플리케이션.StudentMain.executor": "Run",
+    "애플리케이션.UserMain.executor": "Run",
+    "애플리케이션.sssss.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\kyh\java_study\korit_gov_java_study\src\_20_Casting\Animals" />

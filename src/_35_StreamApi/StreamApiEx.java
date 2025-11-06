@@ -1,0 +1,51 @@
+package _35_StreamApi;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class StreamApiEx {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            List<String> products = Arrays.asList(
+                    "애플 아이폰 15 Pro",
+                    "애플 맥북 프로 M3",
+                    "애플 아이패드 에어 5세대",
+                    "애플 에어팟 프로 2세대",
+                    "삼성 갤럭시 S24 울트라",
+                    "삼성 갤럭시 Z 플립 5",
+                    "삼성 갤럭시탭 S9",
+                    "삼성 갤럭시 워치6",
+                    "삼성 노트북 갤럭시북4 프로",
+                    "엘지 울트라기어 게이밍 모니터"
+            );
+            System.out.println("브랜드를 입력하세요");
+            String input = scanner.nextLine();
+            if (input.equalsIgnoreCase("apple")) {
+                input = "애플";
+            } else if (input.equalsIgnoreCase("samsung")) {
+                input = "삼성";
+            } else if (input.equalsIgnoreCase("lg")) {
+                input = "엘지";
+            }
+            String keyword = input;
+            List<String> filteredProducts = products.stream()
+                    .filter(product -> product.contains(keyword))
+                    .toList();
+
+            System.out.println("[ " + input + "관련 상품 목록 ]");
+            if (filteredProducts.isEmpty()) {
+                System.out.println("해당 브랜드의 상품이 없습니다.");
+            } else {
+                filteredProducts.forEach((System.out::println));
+            }
+//            String brand = scanner.nextLine();
+//            List<String> result = products.stream()
+//                    .filter(brands -> brands.startsWith(brand))
+//                    .toList();
+//            System.out.println(result);
+            }
+        }
+
+
+
