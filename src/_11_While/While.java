@@ -4,44 +4,46 @@ import java.util.Scanner;
 
 public class While {
     public static void main(String[] args) {
-        //반복문 - While
-        //조건이 참일 경우 계속 반복
-        //for과의 차이는 for문은 횟수 중심, while문은 조건 중심
-        /*
+        /*  반복문 - While
+         *   조건이 참일 경우 계속 반복
+         *   for과의 차이는 for문은 횟수 중심, while문은 조건 중심
+
          * while (조건) {  boolean자료형이 나오는 조건
-         *   반복할 코드 // 참이면 여기 계속 반복한다
+         *   반복할 코드 (참이면 여기 계속 반복한다)
          * }
-         * while의 주의할 점 // 조건을 변경해주는 코드가 있어야 한다.
-         * 반복할 코드 내에는 조건을 변경해주는 코드가 있어야 한다.
          *
-         *
+         * while의 주의할 점 = 반복할 코드 내에는 조건을 변경해주는 코드가 있어야 한다.
          * */
-        //1 ~ 5까지 출력
-//        int i = 1;
-//        while (i <= 5) { //5가될때 까지 계속 출력할것인데 조건을 변경해줄 코드가 없어서 1이 계속 출력된다.
-//            System.out.println(i);
-//            i++; // 해주면 된다. 조건을 변경하기 위한 코드 필요
-//        }
-//        i = 10;
-//        while (i >= 1) {
-//            System.out.println(i);
-//            i--; //조건을 변경하기 위한 코드가 필요
-//        }
-        //짝수만 출력하겠다  (1 ~ 10)
-//        int i = 1;
-//        while (i <= 10) {
-//            if (i % 2 == 0) {
-//                System.out.println(i);
-//            }
-//            i++;
-//        }
-//        boolean flag = true;
+
+
+        // 문제 1. 1 ~ 5까지 출력
+        int i = 1;
+        while (i <= 5) { //5가될때 까지 계속 출력할것인데 조건을 변경해줄 코드가 없어서 1이 계속 출력된다.
+            System.out.println(i);
+            i++; // 해주면 된다. 조건을 변경하기 위한 코드 필요
+        }
+        i = 10;
+        while (i >= 1) {
+            System.out.println(i);
+            i--; //조건을 변경하기 위한 코드가 필요
+        }
+
+        // 문제 2. 짝수만 출력하겠다 (1 ~ 10)
+        int i = 1;
+        while (i <= 10) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+
+        // 문제 3. 점수를 입력한다. (0 ~ 100)
+        boolean flag = true;
         Scanner scanner = new Scanner(System.in);
-//        //점수를 입력한다. (0 ~ 100)
-//        while (flag) {
-//            int score = scanner.nextInt(); //입력을 받는다.
-//            if (0 <= score && score <= 100) {
-//                System.out.println("점수는" + score);
+        while (flag) {
+            int score = scanner.nextInt(); //입력을 받는다.
+            if (0 <= score && score <= 100) {
+                System.out.println("점수는" + score);
 //                break; // flag = false; 로 바꾸면 안되는 이유  잘 입력을 해도 다시 입력하세요가 나오기 때문에 break;나
 //            } else { //이렇게 써주면 flag써줄 수있다.
 //                System.out.println("다시 입력하세요.");
